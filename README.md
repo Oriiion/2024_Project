@@ -27,11 +27,11 @@ udp2raw 流量转发: 47.100.64.195:5096
 
 
 Vultr的服务器在日本：  
-wg-quick up wg0                    #作为服务器启动  
-wg-quick up client1                #作为客户端启动  
+wg-quick up wg_udp2raw                    #作为服务器启动  
+wg-quick up client_udp2raw1               #作为客户端启动  
 阿里云的服务器在上海：  
-wg-quick up wg0                    #作为服务器启动  
-wg-quick up client1                #作为客户端启动  
+wg-quick up wg_udp2raw                    #作为服务器启动  
+wg-quick up client_udp2raw1               #作为客户端启动  
 
 
 目前问题：  
