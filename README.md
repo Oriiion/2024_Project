@@ -10,10 +10,11 @@ upper layer of obfuscation:
 3. https://github.com/dndx/phantun
 
 
-已经搭建了wireguard + udp2raw (将UDP流量伪装成TCP流量)，配置如下：//
-[server]//
-wireguard 本机IP: 10.8.0.1/24//
-wireguard 监听端口: 55550//
+已经搭建了wireguard + udp2raw (将UDP流量伪装成TCP流量)，配置如下：
+
+[server]
+wireguard 本机IP: 10.8.0.1/24
+wireguard 监听端口: 55550
 wireguard 接收的IP: 10.8.0.3/24
 udp2raw 本地监听: 0.0.0.0:5096
 udp2raw 流量转发: 127.0.0.1:55550
